@@ -103,8 +103,9 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
                 <span className="text-background/70 text-sm">
-                  Design Center, MG Road,<br />
-                  Mumbai, Maharashtra 400001
+                  No.73, 5th Cross Street, Maduranaiker Street, <br />
+                  Maduravoyal, Chennai-95 
+      
                 </span>
               </li>
               <li>
@@ -113,16 +114,16 @@ const Footer = () => {
                   className="flex items-center gap-3 text-background/70 text-sm hover:text-primary transition-colors"
                 >
                   <Phone size={18} className="text-primary flex-shrink-0" />
-                  +91 98765 43210
+                  +91 9710990095/96
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hello@sunstarmodular.com"
+                  href="mailto:mani@sunstarmodularkitchen.com"
                   className="flex items-center gap-3 text-background/70 text-sm hover:text-primary transition-colors"
                 >
                   <Mail size={18} className="text-primary flex-shrink-0" />
-                  hello@sunstarmodular.com
+                  mani@sunstarmodularkitchen.com
                 </a>
               </li>
             </ul>

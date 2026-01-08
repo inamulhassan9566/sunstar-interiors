@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
 <Link to="/" className="flex items-center gap-2">
   <img 
-    src="logo.png"   // <-- put your correct path here
+    src="/assets/logo.png"   // <-- put your correct path here
     alt="Sunstar Modular Kitchen Logo"
     className="h-16 md:h-[5.5rem]"
 

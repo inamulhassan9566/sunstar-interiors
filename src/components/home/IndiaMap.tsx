@@ -49,7 +49,7 @@ const IndiaMap = () => {
           {/* MAP ONLY — NO MARKERS */}
           <div ref={mapRef} className="relative aspect-square max-w-lg mx-auto w-full">
             <img
-              src="/src/assets/tamilnadu.png"
+              src="/assets/tamilnadu.png"
               alt="Tamil Nadu Map"
               className="w-full h-full object-contain"
             />

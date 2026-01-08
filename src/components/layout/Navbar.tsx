@@ -38,14 +38,21 @@ const Navbar = () => {
     >
       <div className="container-premium flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-display text-xl font-bold">S</span>
-          </div>
-          <span className="font-display text-xl md:text-2xl font-semibold text-foreground">
-            Sunstar
-          </span>
-        </Link>
+<Link to="/" className="flex items-center gap-2">
+  <img 
+    src="/src/assets/logo.png"   // <-- put your correct path here
+    alt="Sunstar Modular Kitchen Logo"
+    className="h-16 md:h-[5.5rem]"
+
+  />
+  <img 
+    src="/src/assets/logo- sun.png"   // <-- put your correct path here
+    alt="Sunstar Modular Kitchen Logo"
+    className="h-16 md:h-[4.0rem]"
+
+  />
+</Link>
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">

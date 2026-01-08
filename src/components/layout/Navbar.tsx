@@ -46,7 +46,7 @@ const Navbar = () => {
 
   />
   <img 
-    src="src/assets/logo-sun.png"   // <-- put your correct path here
+    src="/assets/logo-sun.png"   // <-- put your correct path here
     alt="Sunstar Modular Kitchen Logo"
     className="h-16 md:h-[4.0rem]"
 

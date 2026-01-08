@@ -75,27 +75,6 @@ const Hero = () => {
               View Our Projects
             </Link>
           </div>
-
-          {/* Stats */}
-          <div className="animate-item grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-border/50">
-            {[
-              { value: '500+', label: 'Projects Delivered' },
-              { value: '15+', label: 'Cities in India' },
-              { value: '10yr', label: 'Warranty' },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <p className="font-display text-2xl md:text-3xl font-semibold text-primary">{stat.value}</p>
-                <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="w-6 h-10 rounded-full border-2 border-primary/30 flex justify-center p-2">
-          <div className="w-1 h-2 rounded-full bg-primary animate-bounce" />
         </div>
       </div>
     </section>
